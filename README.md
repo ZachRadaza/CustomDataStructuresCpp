@@ -1,4 +1,4 @@
-# Custom Data Structures C++
+# Custom Data Structures in C++
 
 Making custom data structures in C++ to better understand memory management, pointers, and templates. I plan to create these data structures as practice.
  - ArrayList
@@ -7,6 +7,13 @@ Making custom data structures in C++ to better understand memory management, poi
  - Queue
  - Set
  - Map
+
+ Important Takeaways from project
+ - Use of Templates, and a DEEEEEEEEPER understanding of memory and pointers
+ - Difference of using const in function headers (for const return type and const not modifying object -> "const Type foo() const{}")
+ - Using "->" for object pointers as to using "."
+ - Use of struct in classes
+ - No automatic garbage collection, always delete
 
  ## To Run
 

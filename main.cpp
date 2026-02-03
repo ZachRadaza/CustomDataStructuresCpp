@@ -1,8 +1,23 @@
 #include "ArrayList.h"
 #include "LinkedList.h"
 #include "Stack.h"
+#include "Queue.h"
 
 #include <iostream>
+
+void testQueue(){
+    Queue<int> q;
+
+    int a = 5;
+    q.enqueue(a);
+    q.enqueue(10);
+
+    std::cout << "First: " << q.front() << "\n";
+
+    q.dequeue();
+
+    std::cout << "First: " << q.front() << "\n";
+}
 
 void testStack(){
     Stack<int> stack;
@@ -86,7 +101,13 @@ void testArrayList(){
 }
 
 int main(){
-    testStack();
+    //testArrayList();
+
+    //testLinkedList();
+
+    //testStack();
+
+    testQueue();
 
     return 0;
 }
