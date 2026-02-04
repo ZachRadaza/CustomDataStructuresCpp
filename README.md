@@ -5,15 +5,19 @@ Making custom data structures in C++ to better understand memory management, poi
  - LinkedList
  - Stack
  - Queue
- - Set
+ - HashSet
+ - TreeSet
  - Map
 
  Important Takeaways from project
  - Use of Templates, and a DEEEEEEEEPER understanding of memory and pointers
+ - transfer of ownership
  - Difference of using const in function headers (for const return type and const not modifying object -> "const Type foo() const{}")
  - Using "->" for object pointers as to using "."
  - Use of struct in classes
  - No automatic garbage collection, always delete
+ - using array of pointers
+ - Template pointers
 
  ## To Run
 
