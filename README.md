@@ -18,6 +18,7 @@ Making custom data structures in C++ to better understand memory management, poi
  - No automatic garbage collection, always delete
  - using array of pointers
  - Template pointers
+ - use of hashing
 
  ## To Run
 

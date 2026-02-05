@@ -1,3 +1,5 @@
+#pragma once
+
 #include "ArrayList.h"
 
 #include <cstddef>

@@ -1,9 +1,33 @@
+#include "ArrayList.h"
 #include "LinkedList.h"
 #include "Stack.h"
 #include "Queue.h"
 #include "HashSet.h"
+#include "Map.h"
 
 #include <iostream>
+#include <string>
+
+void testMap(){
+    Map<int, std::string> map;
+
+    std::string two = "two";
+
+    map.insert(1, "one");
+    map.insert(2, two);
+
+    std::cout << "Contains key 1: " << map.contains(1) << "\n";
+    std::cout << "Contains key 2: " << map.contains(2) << "\n";
+
+    map.erase(1);
+
+    std::cout << "Contains key 1 (should return false): " << map.contains(1) << "\n";
+    std::cout << "Contains key 2: " << map.contains(2) << "\n";
+    std::cout << "IsEmpty (should be false): " << map.isEmpty() << "\n";
+
+    std::cout << "Find(2): " << map.find(2) << "\n";
+    std::cout << "Size of Map (should be 1): " << map.size() << "\n";
+}
 
 void testHashSet(){
     HashSet<int> set;
@@ -133,7 +157,9 @@ int main(){
 
     //testQueue();
 
-    testHashSet();
+    //testHashSet();
+
+    testMap();
 
     return 0;
 }
