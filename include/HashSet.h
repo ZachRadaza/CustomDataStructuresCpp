@@ -106,7 +106,7 @@ public:
         ++size_;
     }
 
-    bool contains(const Type &value){
+    bool contains(const Type &value) const{
         if(numberOfBuckets == 0)
             return false;
 

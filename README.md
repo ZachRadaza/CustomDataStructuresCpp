@@ -19,6 +19,7 @@ Making custom data structures in C++ to better understand memory management, poi
  - using array of pointers
  - Template pointers
  - use of hashing
+ - how to use, traverse, and manipulate trees
 
  ## To Run
 
